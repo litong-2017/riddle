@@ -16,7 +16,9 @@ Modify your settings in `config.json`, change the default HTTP port in `bin/www`
 - Make sure MongoDB is running
 - `npm start`
 
-Currently you must modify the `group` field from `user` to `admin` of all administrators in DB to make it work.
+Currently you must modify the `group` field from `user` to `admin` of all administrators in DB to make it work.  
+For example, you can just run this in your mongo shell:  
+`db.users.update({ _id: ObjectId("57fcd7ce763xxxxxxc3476") }, { $set: { group: "admin" } } )`
 
 ## Screenshots
 
