@@ -37,5 +37,5 @@ Reordering puzzles
 
 ## About
 Author: Shu Ding  
-License: MIT
+License: MIT  
 Production info: This framework was used in 复旦推协's annual online-offline puzzle-solving event. 
